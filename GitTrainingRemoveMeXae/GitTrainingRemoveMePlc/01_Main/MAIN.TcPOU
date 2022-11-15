@@ -19,10 +19,13 @@ fbLocalSystemTime();
 stSystemTime := fbLocalSystemTime.systemTime;
 
 fbFormatString(
-	sFormat	:= '%.2d:%.2d:%.2d',
-	arg1	:= F_WORD(stSystemTime.wHour),
-	arg2	:= F_WORD(stSystemTime.wMinute),
-	arg3	:= F_WORD(stSystemTime.wSecond),
+	sFormat	:= '%.4d-%.2d-%2.dT%.2d:%.2d:%.2d',
+	arg1	:= F_WORD(stSystemTime.wYear),
+	arg2	:= F_WORD(stSystemTime.wMonth),
+	arg3	:= F_WORD(stSystemTime.wDay),
+	arg4	:= F_WORD(stSystemTime.wHour),
+	arg5	:= F_WORD(stSystemTime.wMinute),
+	arg6	:= F_WORD(stSystemTime.wSecond),
 	sOut	=> sTimestamp);
 ]]></ST>
     </Implementation>
