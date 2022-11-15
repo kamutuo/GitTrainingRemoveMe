@@ -20,6 +20,8 @@ fbLocalSystemTime();
 
 // this comment is in main
 
+// add other comment to main
+
 stSystemTime := fbLocalSystemTime.systemTime;
 
 fbFormatString(
