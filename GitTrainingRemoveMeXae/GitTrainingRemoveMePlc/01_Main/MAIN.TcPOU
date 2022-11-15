@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
   <POU Name="MAIN" Id="{963c10ed-13a7-4254-8257-b500baacf8af}" SpecialFunc="None">
-    <Declaration><![CDATA[PROGRAM MAIN
+    <Declaration><![CDATA[
+PROGRAM MAIN
 VAR
 	fbLocalSystemTime			: FB_LocalSystemTime;
 	stSystemTime				: TIMESTRUCT;
@@ -10,7 +11,8 @@ VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[IF _TaskInfo[GETCURTASKINDEXEX()].FirstCycle THEN
+      <ST><![CDATA[
+IF _TaskInfo[GETCURTASKINDEXEX()].FirstCycle THEN
 	fbLocalSystemTime(bEnable := TRUE);
 END_IF
 
