@@ -31,6 +31,8 @@ fbFormatString(
 	sOut	=> sTimestamp);
 
 // this comment is in main
+
+// add other comment to main
 ]]></ST>
     </Implementation>
   </POU>
