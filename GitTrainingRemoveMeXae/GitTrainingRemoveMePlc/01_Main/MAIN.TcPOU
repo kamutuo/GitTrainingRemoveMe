@@ -33,7 +33,9 @@ fbFormatString(
 // this comment is in main
 
 // add other comment to main
-]]></ST>
+
+// this comment is in dev2
+	]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
