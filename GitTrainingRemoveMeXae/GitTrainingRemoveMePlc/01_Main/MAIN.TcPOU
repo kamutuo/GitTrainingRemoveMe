@@ -18,6 +18,8 @@ END_IF
 
 fbLocalSystemTime();
 
+// this comment is in main
+
 stSystemTime := fbLocalSystemTime.systemTime;
 
 fbFormatString(
@@ -29,12 +31,6 @@ fbFormatString(
 	arg5	:= F_WORD(stSystemTime.wMinute),
 	arg6	:= F_WORD(stSystemTime.wSecond),
 	sOut	=> sTimestamp);
-
-// this comment is in main
-
-// add other comment to main
-
-// this comment is in dev2
 	]]></ST>
     </Implementation>
   </POU>
