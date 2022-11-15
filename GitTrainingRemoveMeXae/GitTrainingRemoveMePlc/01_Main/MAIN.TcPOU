@@ -16,9 +16,9 @@ IF _TaskInfo[GETCURTASKINDEXEX()].FirstCycle THEN
 	fbLocalSystemTime(bEnable := TRUE);
 END_IF
 
-// this comment is in dev
-
 fbLocalSystemTime();
+
+// this comment is in dev
 
 stSystemTime := fbLocalSystemTime.systemTime;
 
