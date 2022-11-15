@@ -31,7 +31,9 @@ fbFormatString(
 // change in main
 
 // another change in main
-	]]></ST>
+
+// change 1
+]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
