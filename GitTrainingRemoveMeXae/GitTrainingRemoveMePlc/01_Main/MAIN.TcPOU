@@ -30,11 +30,7 @@ fbFormatString(
 	arg6	:= F_WORD(stSystemTime.wSecond),
 	sOut	=> sTimestamp);
 
-// change in main
-
-// another change in main
-
-// change 1
+// this comment is in main
 ]]></ST>
     </Implementation>
   </POU>
