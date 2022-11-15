@@ -27,6 +27,8 @@ fbFormatString(
 	arg5	:= F_WORD(stSystemTime.wMinute),
 	arg6	:= F_WORD(stSystemTime.wSecond),
 	sOut	=> sTimestamp);
+	
+// change 1
 ]]></ST>
     </Implementation>
   </POU>
