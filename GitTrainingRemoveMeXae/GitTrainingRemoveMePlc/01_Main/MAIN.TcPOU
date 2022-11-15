@@ -17,11 +17,6 @@ END_IF
 
 fbLocalSystemTime();
 
-// this comment is in main
-// this comment is in dev
-
-// add other comment to main
-
 stSystemTime := fbLocalSystemTime.systemTime;
 
 fbFormatString(
@@ -35,9 +30,5 @@ fbFormatString(
 	sOut	=> sTimestamp);
 	]]></ST>
     </Implementation>
-    <LineIds Name="MAIN">
-      <LineId Id="33" Count="21" />
-      <LineId Id="2" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>
