@@ -29,6 +29,8 @@ fbFormatString(
 	sOut	=> sTimestamp);
 
 // change in main
+
+// another change in main
 	]]></ST>
     </Implementation>
   </POU>
