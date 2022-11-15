@@ -17,6 +17,8 @@ END_IF
 
 fbLocalSystemTime();
 
+// this comment is in main
+
 stSystemTime := fbLocalSystemTime.systemTime;
 
 fbFormatString(
