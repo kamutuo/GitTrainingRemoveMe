@@ -29,13 +29,9 @@ fbFormatString(
 	arg5	:= F_WORD(stSystemTime.wMinute),
 	arg6	:= F_WORD(stSystemTime.wSecond),
 	sOut	=> sTimestamp);
-
-// change in main
-
-// another change in main
-
-// change 1
-]]></ST>
+	
+// this comment is in dev2
+	]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
