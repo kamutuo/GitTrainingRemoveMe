@@ -4,6 +4,9 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	fbLocalSystemTime			: FB_LocalSystemTime;
+	stSystemTime				: TIMESTRUCT;
+	fbFormatString				: FB_FormatString;
+	sTimestamp					: STRING;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -12,6 +15,15 @@ END_VAR
 END_IF
 
 fbLocalSystemTime();
+
+stSystemTime := fbLocalSystemTime.systemTime;
+
+fbFormatString(
+	sFormat	:= '%.2d:%.2d:%.2d',
+	arg1	:= F_WORD(stSystemTime.wHour),
+	arg2	:= F_WORD(stSystemTime.wMinute),
+	arg3	:= F_WORD(stSystemTime.wSecond),
+	sOut	=> sTimestamp);
 ]]></ST>
     </Implementation>
   </POU>
