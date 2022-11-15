@@ -16,6 +16,8 @@ IF _TaskInfo[GETCURTASKINDEXEX()].FirstCycle THEN
 	fbLocalSystemTime(bEnable := TRUE);
 END_IF
 
+// this comment is in dev
+
 fbLocalSystemTime();
 
 stSystemTime := fbLocalSystemTime.systemTime;
@@ -29,12 +31,6 @@ fbFormatString(
 	arg5	:= F_WORD(stSystemTime.wMinute),
 	arg6	:= F_WORD(stSystemTime.wSecond),
 	sOut	=> sTimestamp);
-
-// this comment is in main
-
-// add other comment to main
-
-// this comment is in dev2
 	]]></ST>
     </Implementation>
   </POU>
